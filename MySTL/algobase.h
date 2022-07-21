@@ -516,4 +516,4 @@ mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2, Compred comp)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_ALGOBASE_H_
+#endif // !MYSTL_ALGOBASE_H_
