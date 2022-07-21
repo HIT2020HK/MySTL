@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_ALGO_H_
-#define MYTINYSTL_ALGO_H_
+#ifndef MYSTL_ALGO_H_
+#define MYSTL_ALGO_H_
 
 #ifdef _MSC_VER
 #pragma warning(push)
