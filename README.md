@@ -13,12 +13,12 @@
 
 # 快速运行
 * gcc/clang on linux
-  1. 克隆仓库
+  * 克隆仓库
 ```bash
 $ git clone git@github.com:HIT2020HK/MySTL.git
 $ cd MySTL
 ```
-  2. 构建并运行
+  * 构建并运行
 ```bash
 $ mkdir build && cd build
 $ cmake ..
@@ -30,6 +30,31 @@ $ cd ../bin && ./stltest
 ## 测试环境
 - linux
 - ubuntu 18.04
-- gcc7
+- gcc5
 ## 测试框架
-在 [test.h]() 中，用了两个类实现了一个简单的测试框架，并定义了大量宏来封装测试过程。
+在 [test.h](https://github.com/HIT2020HK/MySTL/blob/main/Test/test.h) 中，用了两个类实现了一个简单的测试框架，并定义了大量宏来封装测试过程
+## 测试内容
+ 在 [test.h](https://github.com/HIT2020HK/MySTL/blob/main/Test/test.h) 中定义了两个宏，`PERFORMANCE_TEST_ON` 和 `LARGER_TEST_DATA_ON`。`PERFORMANCE_TEST_ON` 代表开启性能测试，默认定义为 `1`。`LARGER_TEST_DATA_ON` 代表增大测试数据，默认定义为 `0`**<br>
+## 测试案例
+* [algorithm]() *(100%/100%)*
+  * [algorithm_performance]() *(100%/100%)*
+  * [deque]() *(100%/100%)*
+  * [list]() *(100%/100%)*
+  * [map]() *(100%/100%)*
+    * map
+    * multimap
+  * [queue]() *(100%/100%)*
+    * queue
+    * priority_queue
+  * [set]() *(100%/100%)*
+    * set
+    * multiset
+  * [stack]() *(100%/100%)*
+  * [string_test]() *(100%/100%)*
+  * [unordered_map]() *(100%/100%)*
+    * unordered_map
+    * unordered_multimap
+  * [unordered_set]() *(100%/100%)*
+    * unordered_set
+    * unordered_multiset
+  * [vector]() *(100%/100%)*
