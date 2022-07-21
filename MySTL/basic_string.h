@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_BASIC_STRING_H_
-#define MYTINYSTL_BASIC_STRING_H_
+#ifndef MYSTL_BASIC_STRING_H_
+#define MYSTL_BASIC_STRING_H_
 
 // 这个头文件包含一个模板类 basic_string
 // 用于表示字符串类型
