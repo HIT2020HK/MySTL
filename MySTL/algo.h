@@ -2740,4 +2740,4 @@ ForwardIter unique(ForwardIter first, ForwardIter last, Compared comp)
 #pragma warning(pop)
 #endif
 
-#endif // !MYTINYSTL_ALGO_H_
+#endif // !MYSTL_ALGO_H_
