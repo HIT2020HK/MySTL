@@ -58,3 +58,5 @@ $ cd ../bin && ./stltest
     * unordered_set
     * unordered_multiset
   * [vector](https://github.com/HIT2020HK/MySTL/blob/main/Test/vector_test.h) *(100%/100%)*
+  # 感谢
+  《STL源码剖析》 侯捷
